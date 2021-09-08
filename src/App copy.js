@@ -17,7 +17,6 @@ const App = () => {
     const [humidity, setHumidity] = useState("")
     const [windSpeed, setWindSpeed] = useState("")
     const [weatherDescription, setWeatherDescription] = useState("")
-    const [weatherIcon, setWeatherIcon] = useState("")
 
     useEffect(() => {
 
@@ -37,7 +36,6 @@ const App = () => {
 
             setWindSpeed(result.data.wind.speed)
             setWeatherDescription(result.data.weather[0].description)
-            setWeatherIcon(result.data.weather[0].icon)
 
         };
         getData();
@@ -66,7 +64,6 @@ const App = () => {
                 <div className="widget">
                     <div className="item city"><strong>{city}</strong></div>
                     <div className="item temp"> <strong>{Math.round(temp * 10) / 10}&#176;</strong></div>
-                    <div className="render-icon"><img src={`http://openweathermap.org/img/wn/${weatherIcon}@2x.png`} alt="icon"></img></div>
                     <div className="item emotion">Ощущается как <strong>&nbsp;{Math.round(feelsLike * 10) / 10}&#176;</strong></div>
                     <div className="item state">
                         <div className="item">{weatherDescription},</div>
