@@ -1,0 +1,26 @@
+nav {
+    background-color: #0579FA;
+    display         : flex;
+    justify-content : center;
+    flex-wrap       : wrap;
+    flex-direction  : row;
+}
+
+.nav-button {
+    font-size       : 12px;
+    color           : #48484A;
+    text-transform  : uppercase;
+    padding         : 15px 10px;
+    min-width       : 90px;
+    border          : none;
+    background-color: #0579FA;
+    color           : white;
+}
+
+.nav-button:hover {
+    background-color: #005FF9;
+    color           : white;
+    border-radius   : 5px;
+    cursor: pointer;
+}
+

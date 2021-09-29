@@ -1,0 +1,46 @@
+.header-area {
+    width: 100%;
+}
+
+.header-area_header {
+    background-color: #48484A;
+    height          : 40px;
+    width           : 100%;
+    color           : white;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.header-area_header_region {
+    flex-basis   : 1000px;
+    text-align   : end;
+}
+
+.header-area_header-contener {
+    background-color: #C8CDDD;
+    height          : 120px;
+    width           : 100%;
+    position        : absolute;
+    top             : 40px;
+    left            : 0px;
+    background-image: url(./../background/darkblue-crossline.png);
+    opacity:0.6;
+    z-index         : 2;
+}
+
+.header-area_header-contener-menu {
+    background-color: #E5E8F4;
+    height          : 46px;
+    width           : 100%;
+    position        : absolute;
+    top             : 160px;
+    left            : 0px;
+    background-image: url(./../background/blue-crossline.png);
+    opacity:0.6;
+    z-index         : 2;
+}
+.header-select{
+    min-width: 120px;
+    min-height: 20px;
+}

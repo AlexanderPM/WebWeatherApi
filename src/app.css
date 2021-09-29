@@ -1,0 +1,43 @@
+.wraper {
+    display       : flex;
+    align-items   : center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(./background/grey-flower-figure.png);
+}
+
+.fetchining {
+    width                    : 50px;
+    height                   : 50px;
+    border-radius            : 100%;
+    margin                   : 10vh auto;
+    border                   : 3px dashed #48484A;
+    animation-name           : search-fetching;
+    animation-duration       : 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction      : alternate;
+    animation-timing-function: linear;
+}
+
+.download{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    min-width: 350px;
+    background-color: #F9F9F9;
+    border-radius   : 20px;
+    opacity: 0.7;
+}
+.download_message{
+    align-self:center;
+    margin-bottom: 20px;
+}
+
+@keyframes search-fetching {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) scale(1.5);
+    }
+}

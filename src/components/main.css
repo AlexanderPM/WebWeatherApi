@@ -1,0 +1,12 @@
+.main-title {
+    color    : #48484A;
+    margin   : 20px 50px 0px 50px;
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 18px;
+}
+.main-contener{
+    z-index: 3;
+}

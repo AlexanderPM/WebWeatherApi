@@ -1,0 +1,14 @@
+.date-time {
+    color: #005FF9;
+}
+
+.main-detail {
+    display  : flex;
+    flex-wrap: wrap;
+}
+
+.main-title {
+    color    : #48484A;
+    margin   : 20px 50px 0px 50px;
+    font-size: 10px;
+}

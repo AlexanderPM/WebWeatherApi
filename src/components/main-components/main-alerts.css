@@ -1,0 +1,11 @@
+.main-message {
+    display         : flex;
+    color           : #48484A;
+    padding         : 10px;
+    margin          : 0px 50px;
+    border-radius   : 10px;
+    flex-direction  : column;
+    min-width       : 320px;
+    background-color: #F9F9F9;
+    box-shadow      : 0 0 5px rgba(0, 0, 0, 0.2);
+}

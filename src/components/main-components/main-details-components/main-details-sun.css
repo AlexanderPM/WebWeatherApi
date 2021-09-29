@@ -1,0 +1,65 @@
+.main-detail_sun_block {
+    display         : flex;
+    color           : #48484A;
+    padding         : 10px;
+    margin          : 0px 50px 0 50px;
+    background-color: #F9F9F9;
+    box-shadow      : 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius   : 20px;
+    flex-direction  : column;
+    max-width       : 405px;
+    min-width       : 320px;
+    min-height      : 300px;
+    justify-content : center;
+    align-items     : center;
+}
+
+.main-detail_sun_block:hover {
+    transition: box-shadow 200ms;
+    box-shadow: 0 0 20px rgba(86, 108, 168, 0.75);
+}
+
+.main-detail_sun_block:hover img{
+    animation-name           : animation;
+    animation-duration       : 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction      : alternate;
+    animation-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.main-detail_sun_block_date {
+    margin-bottom: 40px;
+}
+
+.main-detail_sun_block_logo {
+    width        : fit-content;
+    margin-bottom: 60px;
+}
+
+.main-detail_sun_block_contener {
+    display        : flex;
+    justify-content: space-between;
+    width          : 100%;
+    margin-bottom  : 10px;
+}
+
+.main-detail_sun_block_contener_sunrise {
+    margin-left: 20px;
+}
+
+.main-detail_sun_block_contener_sunset {
+    margin-right: 20px;
+}
+
+
+
+
+
+@keyframes animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg) scale(1.1);
+    }
+}

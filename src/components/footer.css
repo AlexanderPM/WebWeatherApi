@@ -1,0 +1,34 @@
+.footer {
+    background-color: #48484A;
+    height          : 140px;
+    width           : 100%;
+    color           : white;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    box-shadow      : 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer-content {
+    flex-basis     : 1000px;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.footer-content_icon {
+    padding: 50px 5px;
+    margin : 0px 0px 0px 50px;
+}
+
+.footer-content_site-info {
+    margin-left: 50px;
+}
+
+.footer-content_icon {
+    margin-right: 50px;
+}
+
+.footer-content_icon a {
+    color: darkturquoise;
+}

@@ -1,0 +1,68 @@
+.main-hourly {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: center;
+    margin         : 0px 50px;
+    background-color: #F9F9F9;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2); 
+    color: #48484A;
+}
+
+.main-hourly_contener-element {
+    padding      : 0px;
+    font-size    : 14px;
+}
+
+.main-hourly_contener-element_date {
+    padding         : 10px 5px;
+    text-align      : center;
+    background-color:#F9F9F9;
+    color:#546BA8;
+}
+
+.main-hourly_contener-element_date-time {
+    padding         : 10px 5px;
+    text-align      : center;
+    background-color:#F9F9F9;
+}
+
+.main-hourly_contener-element_icon {
+    text-align: center;
+    background-color: rgba(72,173,255,0.5); 
+    margin-bottom: 20px;
+    z-index: -1;
+}
+
+.main-hourly_contener-element:hover  {
+    z-index: 1;
+    background-color: rgba(0,95, 249, 0.1);
+}
+
+.main-hourly_contener-element:hover .main-hourly_contener-element_date  {
+    z-index: 1;
+    background-color:#005FF9;
+    color: white;
+}
+.main-hourly_contener-element:hover .main-hourly_contener-element_date-time  {
+    z-index: 1;
+    background-color: rgba(0,95, 249, 0.1);
+}
+
+.main-hourly_contener-element:hover .main-hourly_contener-element_icon {
+    z-index: 1;
+    background-color: rgba(0,95, 249, 0.4);
+}
+
+.main-hourly_contener-element_description {
+    text-align   : center;
+    padding      : 0px 7px;
+    max-width    : 98px;
+    min-width    : 98px;
+    min-height   : 40px;
+}
+
+.main-hourly_contener-element_temp {
+    padding   : 7px 5px;
+    text-align: center;
+}
