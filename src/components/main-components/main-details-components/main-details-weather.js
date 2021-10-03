@@ -10,7 +10,7 @@ const Current = (props) => {
                 <div className="main-detail_weather_block_widget">
                     <div className="main-detail_weather_block_widget_info">
                         <div className="main-detail_weather_block_widget_info_icon">
-                            <img src={`http://openweathermap.org/img/wn/${props.img}@2x.png`} alt="icon" width="160px" height="160px"></img>
+                            <img src={`https://openweathermap.org/img/wn/${props.img}@2x.png`} alt="icon" width="160px" height="160px"></img>
                             <div className="main-detail_weather_block_widget_info_icon_temp"> <strong>{props.temp}&#176;</strong></div>
                         </div>
                         <div className="main-detail_weather_block_widget_info_emotion">Ощущается как <strong>&nbsp;{props.emotion}&#176;</strong></div>

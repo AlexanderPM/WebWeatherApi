@@ -8,7 +8,7 @@ const Hourly = (props) => {
             <div key={index} className="main-hourly_contener-element">
                 <div className="main-hourly_contener-element_date"><strong>{props.dataTimeConverter(element.dt, "date_short")}</strong></div>
                 <div className="main-hourly_contener-element_date-time"><strong>{props.dataTimeConverter(element.dt, "time")}</strong></div>
-                <div className="main-hourly_contener-element_icon"><img src={`http://openweathermap.org/img/wn/${element.weather[0].icon}@2x.png`} alt="icon"></img></div>
+                <div className="main-hourly_contener-element_icon"><img src={`https://openweathermap.org/img/wn/${element.weather[0].icon}@2x.png`} alt="icon"></img></div>
                 <div className="main-hourly_contener-element_description">{element.weather[0].description}</div>
                 <div className="main-hourly_contener-element_temp"> <strong>t&#176; {element.temp.toFixed(1)}&#176;</strong></div>
             </div>
